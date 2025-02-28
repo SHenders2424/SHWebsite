@@ -8,8 +8,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to My Website</h1>
-        <p>This is a React-powered website using Vite!</p>
+        <h1>About</h1>
+        <p>My name is Spencer Henderson and I am a Computer Science student at the University of Missouri.
+          I am a undergraduate research assistant with the CERI Center, and I am working on a project with the
+          Information Experience Laboratory. In this project, I develop a VR experience for neurodivergergent 
+          individuals using Unity and C#. Outside of my research, I like to develop games and create websites and apps.
+        </p>
       </header>
       <main>
         <section>
