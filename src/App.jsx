@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import profilepic from './assets/profilepic.png'
 import './App.css'
 
 function App() {
@@ -9,12 +9,12 @@ function App() {
     <div className="container">
       {/* Sidebar */}
       <aside className="sidebar">
-        <img src={reactLogo} alt="Profile" className="profile-img" />
+        <img src={profilepic} alt="Profile" className="profile-img" />
         <nav>
           <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="mailto:s.henderson2424@gmail.com">Email</a></li>
+            <li><a href="https://github.com/SHenders2424" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/spencer-henderson-7b6940324/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
           </ul>
         </nav>
       </aside>
@@ -30,18 +30,7 @@ function App() {
           </p>
         </header>
         <main>
-          <section id="about">
-            <h2>About</h2>
-            <p>This section is where you can describe your website or project.</p>
-          </section>
-          <section id="projects">
-            <h2>Projects</h2>
-            <p>Here, you can showcase your work.</p>
-          </section>
-          <section id="contact">
-            <h2>Contact</h2>
-            <p>Get in touch with me!</p>
-          </section>
+          
         </main>
       </div>
     </div>
