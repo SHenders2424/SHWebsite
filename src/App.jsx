@@ -10,6 +10,11 @@ function App() {
       {/* Header */}
       <header className="top-header">
         <h2>SPENCER HENDERSON</h2>
+        <nav>
+          <a href="./assets/resume.pdf" target="_blank" rel="noopener noreferrer" className="pdf-link">
+            Resume
+          </a>
+        </nav>
       </header>
 
     <div className="container">
@@ -19,7 +24,7 @@ function App() {
         <main>
           <h2>Spencer Henderson</h2>
           <p>
-            BS in Computer Science and Minor in Mathematics
+            BS in Computer Science Minor in Mathematics
           </p>
           <p>
             University of Missouri
