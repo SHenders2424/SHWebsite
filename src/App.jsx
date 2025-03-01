@@ -6,6 +6,12 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
+    <div className="page-container">
+      {/* Header */}
+      <header className="top-header">
+        <h2>SPENCER HENDERSON</h2>
+      </header>
+
     <div className="container">
       {/* Sidebar */}
       <aside className="sidebar">
@@ -42,6 +48,7 @@ function App() {
           
         </main>
       </div>
+    </div>
     </div>
   );
 }
