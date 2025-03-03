@@ -14,7 +14,7 @@
 /* Top Header */
 .top-header {
   width: 100%;
-  background-color: #595656; /* Dark background */
+  background-color: #3f3e3e; /* Dark background */
   color: white; /* White text */
   padding: 10px 20px; /* Adds some left padding */
   display: flex;
@@ -78,7 +78,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(71, 70, 70);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 18px;
   display: block; /* Makes links take full width */
@@ -106,5 +106,9 @@ h1, h2, p {
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 50px;
-  margin-right: 450px;
+  margin-right: 470px;
+}
+
+p {
+  font-size: 18px; /* Adjust size as needed */
 }
