@@ -44,13 +44,17 @@ function App() {
         <header className="App-header">
           <h1>About</h1>
           <p>My name is Spencer Henderson and I am a Computer Science student at the University of Missouri.
+            I am also working on getting a minor in Mathematics.  I participate in 
             I am an undergraduate research assistant with the CERI Center, and I am working on a project with the
-            Information Experience Laboratory. In this project, I develop a VR experience for neurodivergent 
+            Information Experience Laboratory. In this project, called USucceed, I develop a VR experience for neurodivergent 
             individuals using Unity and C#. Outside of my research and studies, I like to develop games and apps and create websites.
           </p>
         </header>
         <main>
-          
+          <h1>Research</h1>
+          <h2>USucceed</h2>
+          <p>My work on the USucceed project 
+          </p>
         </main>
       </div>
     </div>
