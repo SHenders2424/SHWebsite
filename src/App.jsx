@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import profilepic from './assets/profilepic.png'
+import emotionsGame from './assets/emotions-game.png';
 import './App.css'
 
 function App() {
@@ -21,8 +22,10 @@ function App() {
       {/* Sidebar */}
       <aside className="sidebar">
         <img src={profilepic} alt="Profile" className="profile-img" />
+        <header className="sidebar-header">
+        <h2>Spencer Henderson</h2>
+        </header>
         <main className="sidebar-info">
-          <h2>Spencer Henderson</h2>
           <p>
             BS in Computer Science 
           </p>
@@ -65,10 +68,11 @@ function App() {
           </p>
           <h1>Projects</h1>
           <h2>Emotions.io</h2>
+          <img src={emotionsGame} alt="Screenshot of Emotions.io game" className="project-img" />
           <p>During the 2025 Adroit Game Jam, my group created a fully functioning multiplayer io game that runs on a server with minimal bugs in only
             48 hours. The game was working by the end of the time limit, and the judges and other participants were able to join and play the game during our
             presentation. I did the front end Unity development for the project, creating all of the UI, player controls, game mechanics, and the detailed
-            leveling and stat system for the game. I gained valuable skills about working with a team to create a product, and working with a very restrictive
+            leveling, stats, and ability system for the game. I gained valuable skills about working with a team to create a product, and working with a very restrictive
             time constraint. We plan on developing this game into a fully polished game with its own domain and robust server in the future, and add much more
             content.
           </p>
