@@ -1,14 +1,12 @@
 /* Overall container */
 .container {
   display: flex;
-  height: 1600px; /* Adjust height considering header */
   margin-top: 100px;
 }
 
 .page-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 /* Top Header */
@@ -25,7 +23,6 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  height: 100px; /* Keep it short */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,10 +54,12 @@
   align-items: flex-start;
   padding: 20px;
   color: black;
-  height: 745px;
   position: sticky;
   top: 100px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
 }
+
 
 
 .sidebar-info{

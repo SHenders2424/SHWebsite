@@ -47,7 +47,7 @@ function App() {
         <header className="App-header">
           <h1>About</h1>
           <p>My name is Spencer Henderson and I am a Computer Science student at the University of Missouri.
-            I am also working on getting a minor in Mathematics.  I participate in the Mizzou Computing Association, intermural sports,
+            I am also working on getting a minor in Mathematics.  I participate in the Mizzou Computing Association, intramural sports,
             and many game jams and hackathons throughout the year. 
             I am an undergraduate research assistant with the CERI Center, and I am working on a project with the
             Information Experience Laboratory. In this project, called USucceed, I develop a VR experience for neurodivergent 
@@ -60,7 +60,7 @@ function App() {
           <p>My work on the USucceed project involves creating an immersive world in Unity that can be navigated in VR, developing engaging
             minigames and curriculum, and integrating an AI pedagogical agent to enhance the experience. I work alongside neurodivergent adults
             to create a supportive learning environment, ensuring users can engage effectively and gain valuable skills in cybersecurity. 
-            Some of the main aspects of the projectthat I have played a major role in creating are the minigames in each unit, the navigation and
+            Some of the main aspects of the project that I have played a major role in creating are the minigames in each unit, the navigation and
             menu system, and shaping the overall game loop to create a cohesive and interactive experience.
           </p>
           <h1>Projects</h1>
