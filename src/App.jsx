@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import profilepic from './assets/profilepic.png'
 import emotionsGame from './assets/emotions-game.png';
+import resumePDF from './assets/cv.pdf';
 import './App.css'
 
 function App() {
@@ -10,11 +11,11 @@ function App() {
     <div className="page-container">
       {/* Header */}
       <header className="top-header">
-        <h2>SPENCER HENDERSON</h2>
+        <h2>Spencer Henderson</h2>
         <nav>
-          <a href="./assets/resume.pdf" target="_blank" rel="noopener noreferrer" className="pdf-link">
-            Resume
-          </a>
+        <a href={resumePDF} target="_blank" rel="noopener noreferrer" className="pdf-link">
+          Resume
+        </a>
         </nav>
       </header>
 
@@ -22,9 +23,6 @@ function App() {
       {/* Sidebar */}
       <aside className="sidebar">
         <img src={profilepic} alt="Profile" className="profile-img" />
-        <header className="sidebar-header">
-        <h2>Spencer Henderson</h2>
-        </header>
         <main className="sidebar-info">
           <p>
             BS in Computer Science 
