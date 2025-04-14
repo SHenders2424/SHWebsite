@@ -65,10 +65,15 @@ function App() {
           </p>
           <h1>Projects</h1>
           <h2>Emotions.io</h2>
-          <p>Emotions info
+          <p>During the 2025 Adroit Game Jam, my group created a fully functioning multiplayer io game that runs on a server with minimal bugs in only
+            48 hours. The game was working by the end of the time limit, and the judges and other participants were able to join and play the game during our
+            presentation. I did the front end Unity development for the project, creating all of the UI, player controls, game mechanics, and the detailed
+            leveling and stat system for the game. I gained valuable skills about working with a team to create a product, and working with a very restrictive
+            time constraint. We plan on developing this game into a fully polished game with its own domain and robust server in the future, and add much more
+            content.
           </p>
           <h2>College Basketball Stat Predictor</h2>
-          <p>CBB Stats info
+          <p>The college basketball stat predictor
           </p>
         </main>
       </div>
