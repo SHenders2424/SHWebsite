@@ -56,7 +56,16 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
+  padding-top: 100px;
   color: black;
+  height: 1000px;
+  margin-top: -100px;
+}
+
+.sidebar-info{
+  font-size: 18px;
+  width: 1000px;
+  margin-left: -25px;
 }
 
 .profile-img {
@@ -83,6 +92,7 @@ nav ul li a {
   font-size: 18px;
   display: block; /* Makes links take full width */
   padding-left: 50px;
+  margin-left: -25px;
 }
 
 nav ul li a:hover {
@@ -93,11 +103,16 @@ body {
   background-color: #ffffff; /* Light gray or any color you prefer */
 }
 
+.main-body{
+  padding-right: 100px;
+}
+
 /* Content section */
 .content {
   flex: 1;
   background-color: #ffffff;
   padding: 20px;
+  padding-top: 50px;
   text-align: left; 
   color: black;
 }
@@ -106,7 +121,7 @@ h1, h2, p {
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 50px;
-  margin-right: 470px;
+  margin-right: 400px;
 }
 
 p {
