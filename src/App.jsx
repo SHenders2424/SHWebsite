@@ -21,10 +21,13 @@ function App() {
       {/* Sidebar */}
       <aside className="sidebar">
         <img src={profilepic} alt="Profile" className="profile-img" />
-        <main>
+        <main className="sidebar-info">
           <h2>Spencer Henderson</h2>
           <p>
-            BS in Computer Science Minor in Mathematics
+            BS in Computer Science 
+          </p>
+          <p>
+            Minor in Mathematics
           </p>
           <p>
             University of Missouri
