@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import profilepic from './assets/profilepic.png'
 import emotionsGame from './assets/emotions-game.png';
-import resumePDF from './assets/cv.pdf';
 import './App.css'
 
 function App() {
@@ -13,9 +12,9 @@ function App() {
       <header className="top-header">
         <h2>Spencer Henderson</h2>
         <nav>
-        <a href={resumePDF} target="_blank" rel="noopener noreferrer" className="pdf-link">
-          Resume
-        </a>
+        <a href="cv.pdf" target="_blank" rel="noopener noreferrer" className="pdf-link">
+  Resume
+</a>
         </nav>
       </header>
 
