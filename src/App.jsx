@@ -75,7 +75,11 @@ function App() {
             content.
           </p>
           <h2>College Basketball Stat Predictor</h2>
-          <p>The college basketball stat predictor
+          <p>I am working on a project with a statistics student at the University of Missouri that is a website that predicts the points, assists, and 
+            rebounds of any player in college basketball when they play any team. The model we created takes into consideration the players average stats,
+            the defensive effiency of the team their playing against, and whether the game is played at home, neutral or away. For this project I produced a 
+            website that allows the user to input the player name, team their playing against, and location of the game, and it will determine a predicted
+            outcome of that player's performance.
           </p>
         </main>
       </div>
