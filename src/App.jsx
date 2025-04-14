@@ -63,6 +63,13 @@ function App() {
             Some of the main aspects of the projectthat I have played a major role in creating are the minigames in each unit, the navigation and
             menu system, and shaping the overall game loop to create a cohesive and interactive experience.
           </p>
+          <h1>Projects</h1>
+          <h2>Emotions.io</h2>
+          <p>Emotions info
+          </p>
+          <h2>College Basketball Stat Predictor</h2>
+          <p>CBB Stats info
+          </p>
         </main>
       </div>
     </div>
