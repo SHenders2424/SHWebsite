@@ -46,49 +46,48 @@ function App() {
       <div className="content">
         <header className="App-header">
           <h1>About</h1>
-          <p>My name is Spencer Henderson and I am a Computer Science student at the University of Missouri.
-            I am also working on getting a minor in Mathematics.  I participate in the Mizzou Computing Association, intramural sports,
-            and many game jams and hackathons throughout the year. 
-            I am an undergraduate research assistant with the CERI Center, and I am working on a project with the
-            Information Experience Laboratory. In this project, called USucceed, I develop a VR experience for neurodivergent 
-            individuals using Unity and C#. Outside of my research and studies, I like to develop games and apps and create websites.
+          <p>My name is Spencer Henderson and I am a Computer Science student at the University of Missouri, pursuing a minor in Mathematics. 
+            I participate in the Mizzou Computing Association, intramural sports, and many game jams and hackathons throughout the year. 
+            Currently, I serve as an undergraduate research assistant with the CERI Center and the Information Experience Laboratory. In these 
+            roles, I contribute to cutting-edge projects, including the development of immersive VR experiences for neurodivergent individuals. 
+            Beyond academics and research, I am passionate about creating games, apps, and websites, constantly seeking opportunities to apply my 
+            skills in real-world scenarios.
           </p>
         </header>
         <main>
           <h1>Research</h1>
           <h2>USucceed</h2>
-          <p>My work on the USucceed project involves creating an immersive world in Unity that can be navigated in VR, developing engaging
-            minigames and curriculum, and integrating an AI pedagogical agent to enhance the experience. I work alongside neurodivergent adults
-            to create a supportive learning environment, ensuring users can engage effectively and gain valuable skills in cybersecurity. 
-            Some of the main aspects of the project that I have played a major role in creating are the minigames in each unit, the navigation and
-            menu system, and shaping the overall game loop to create a cohesive and interactive experience.
+          <p>As part of the USucceed project, I am developing a Virtual Reality (VR) experience designed to support neurodivergent individuals in learning 
+            cybersecurity concepts. My contributions include designing immersive 3D environments in Unity, developing interactive minigames, and integrating 
+            an AI-driven pedagogical agent to enhance engagement. I work closely with neurodivergent adults to ensure the experience is accessible, engaging, 
+            and educational. Key aspects I have led include the design and development of the minigames within each learning module, creating intuitive 
+            navigation and menu systems, and shaping the overall game loop to ensure a cohesive and impactful user experience.
           </p>
           <h1>Projects</h1>
           <h2>Emotions.io</h2>
           <img src={emotionsGame} alt="Screenshot of Emotions.io game" className="project-img" />
-          <p>During the 2025 Adroit Game Jam, my group created a fully functioning multiplayer io game that runs on a server with minimal bugs in only
-            48 hours. The game was working by the end of the time limit, and the judges and other participants were able to join and play the game during our
-            presentation. I did the front end Unity development for the project, creating all of the UI, player controls, game mechanics, and the detailed
-            leveling, stats, and ability system for the game. I gained valuable skills about working with a team to create a product, and working with a very restrictive
-            time constraint. We plan on developing this game into a fully polished game with its own domain and robust server in the future, and add much more
-            content.
+          <p>During the 2025 Adroit Game Jam, my team developed a fully functional multiplayer .io game in just 48 hours. The game was live and playable 
+             by the end of the event, and both judges and participants were able to join and engage with it during our presentation. I was responsible for all 
+             front-end development in Unity, including the UI, player controls, core game mechanics, and the detailed leveling, stats, and abilities system. 
+             This project taught me how to work collaboratively under tight time constraints and solidified my ability to deliver a complete product on a 
+             deadline. We plan to continue development, with the goal of launching a polished version on its own domain with a robust server and expanded content.
           </p>
           <h2>Maple and Marsh Website</h2>
-          <p>A local coffee company hired me to create a website for them, displaying their upcoming events, menu, and contact information. I created the website'
-            using Javascript and React, creating a visually aestheitc, modern website that is formatted to work on any device. The website can be found at
-            mapleandmarsh.com. 
+          <p>I was contracted by a local coffee company, Maple and Marsh, to design and develop their official website. The site showcases their upcoming 
+            events, menu, and contact information. Built using JavaScript and React, the site features a modern and visually appealing design and is fully 
+            responsive across all devices. The website is live at mapleandmarsh.com. 
           </p>
           <h2>College Basketball Stat Predictor</h2>
-          <p>I am working on a project with a statistics student at the University of Missouri that is a website that predicts the points, assists, and 
-            rebounds of any player in college basketball when they play any team. The model we created takes into consideration the players average stats,
-            the defensive effiency of the team their playing against, and whether the game is played at home, neutral or away. For this project I produced a 
-            website that allows the user to input the player name, team their playing against, and location of the game, and it will determine a predicted
-            outcome of that player's performance.
+          <p>I am currently collaborating with a statistics student at the University of Missouri to develop a web-based predictive tool for NCAA basketball 
+            performance. The application forecasts player statistics—including points, assists, and rebounds—based on various factors such as the player's 
+            average stats, the defensive efficiency of the opposing team, and game location (home, neutral, or away). I designed and developed the user 
+            interface for the website, allowing users to input player and matchup data and receive a predictive performance analysis.
           </p>
           <h2>Call of Duty Camo Tracker</h2>
-          <p>I created an iOS app that can be used to track and view your progress on a popular video game, Call of Duty: Black Ops 6. I made the app's models
-            and UI to create a user friendly experience. I plan on continuing development when the next title in the franchise comes out, to allow for users to 
-            use it for each game in the series. 
+          <p>I designed and developed an iOS application that allows users to track their progress in Call of Duty: Black Ops 6. The app features a clean, 
+            user-friendly interface and efficient data models to display progress across various camo challenges. I plan to continue updating the app to 
+            support future titles in the Call of Duty franchise, making it a versatile tool for long-term users of the series. I want to also add more features
+            to allow my app to stand out from other competitors, like guides on how to complete the challenges and the ability to share progress with friends.
           </p>
         </main>
       </div>
