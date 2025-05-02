@@ -73,12 +73,22 @@ function App() {
             time constraint. We plan on developing this game into a fully polished game with its own domain and robust server in the future, and add much more
             content.
           </p>
+          <h2>Maple and Marsh Website</h2>
+          <p>A local coffee company hired me to create a website for them, displaying their upcoming events, menu, and contact information. I created the website'
+            using Javascript and React, creating a visually aestheitc, modern website that is formatted to work on any device. The website can be found at
+            mapleandmarsh.com. 
+          </p>
           <h2>College Basketball Stat Predictor</h2>
           <p>I am working on a project with a statistics student at the University of Missouri that is a website that predicts the points, assists, and 
             rebounds of any player in college basketball when they play any team. The model we created takes into consideration the players average stats,
             the defensive effiency of the team their playing against, and whether the game is played at home, neutral or away. For this project I produced a 
             website that allows the user to input the player name, team their playing against, and location of the game, and it will determine a predicted
             outcome of that player's performance.
+          </p>
+          <h2>Call of Duty Camo Tracker</h2>
+          <p>I created an iOS app that can be used to track and view your progress on a popular video game, Call of Duty: Black Ops 6. I made the app's models
+            and UI to create a user friendly experience. I plan on continuing development when the next title in the franchise comes out, to allow for users to 
+            use it for each game in the series. 
           </p>
         </main>
       </div>
