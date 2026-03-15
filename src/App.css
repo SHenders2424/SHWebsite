@@ -367,6 +367,40 @@ a {
   gap: 5px;
 }
 
+
+.card-title-link {
+  color: inherit;
+  transition: color 0.2s var(--ease);
+}
+
+.card-title-link:hover {
+  color: var(--accent-2);
+}
+
+.hackathon-tag {
+  color: #f59e0b !important;
+  background: rgba(245, 158, 11, 0.08) !important;
+  border-color: rgba(245, 158, 11, 0.25) !important;
+}
+
+.project-image-full-wrap {
+  border-top: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.project-img-full {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s var(--ease);
+  filter: brightness(0.92);
+}
+
+.project-card:hover .project-img-full {
+  transform: scale(1.02);
+  filter: brightness(1);
+}
+
 .project-tag {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.65rem;

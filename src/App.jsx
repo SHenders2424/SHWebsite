@@ -1,5 +1,7 @@
 import profilepic from './assets/profilepic.png'
 import emotionsGame from './assets/emotions-game.png'
+import whereToStargaze from './assets/WhereToStargazePic.png'
+import imageToMC from './assets/ImageToMC.png'
 import './App.css'
 
 function App() {
@@ -93,6 +95,94 @@ function App() {
             <h1 className="section-title">// Projects</h1>
             <div className="projects-grid">
 
+              <div className="project-card">
+                <div className="project-info">
+                  <div className="project-meta">
+                    <span className="project-tag hackathon-tag">🏆 TigerHacks 2025 — 1st Place</span>
+                  </div>
+                  <div className="project-meta" style={{marginTop: '4px'}}>
+                    <span className="project-tag">React</span>
+                    <span className="project-tag">FastAPI</span>
+                    <span className="project-tag">LeafletJS</span>
+                    <span className="project-tag">AWS S3</span>
+                    <span className="project-tag">Redis</span>
+                  </div>
+                  <h2 className="card-title"><a href="https://wheretostargaze.us" target="_blank" rel="noopener noreferrer" className="card-title-link">WhereToStargaze ↗</a></h2>
+                  <p className="card-body">
+                    Built with a team of four at TigerHacks 2025, WhereToStargaze helps users find the best
+                    nearby spots for an unobstructed view of the night sky. The app pulls in light pollution
+                    maps, real-time cloud coverage, and forest density data, then surfaces results through
+                    interactive LeafletJS visualizations including drive-time isochrones and distance heatmaps.
+                    A Redis caching layer reduced API overhead by 40%, while FastAPI handles backend data
+                    processing and AWS S3 stores the large geospatial datasets. Deployed on Vercel.
+                  </p>
+                </div>
+                <div className="project-image-full-wrap">
+                  <img src={whereToStargaze} alt="WhereToStargaze app screenshot" className="project-img-full" />
+                </div>
+              </div>
+
+              <div className="project-card">
+                <div className="project-info">
+                  <div className="project-meta">
+                    <span className="project-tag">Python</span>
+                    <span className="project-tag">Data Science</span>
+                    <span className="project-tag">Sports Analytics</span>
+                  </div>
+                  <h2 className="card-title">College Basketball Stat Predictor</h2>
+                  <p className="card-body">
+                    I am currently collaborating with a statistics student at the University of Missouri to
+                    develop a web-based predictive tool for NCAA basketball performance. The application
+                    forecasts player statistics—including points, assists, and rebounds—based on factors such
+                    as average stats, the defensive efficiency of the opposing team, and game location. I
+                    designed and developed the user interface for the website.
+                  </p>
+                </div>
+              </div>
+
+              <div className="project-card">
+                <div className="project-info">
+                  <div className="project-meta">
+                    <span className="project-tag">Python</span>
+                    <span className="project-tag">React</span>
+                    <span className="project-tag">FastAPI</span>
+                    <span className="project-tag">Three.js</span>
+                    <span className="project-tag">AI / ML</span>
+                  </div>
+                  <h2 className="card-title">ImageToMC</h2>
+                  <p className="card-body">
+                    Point a photo at any object and get a Minecraft schematic back. An AI model
+                    (TripoSR for single images, InstantMesh for multi-angle) reconstructs a 3D mesh, which
+                    is then voxelized at your chosen resolution and color-matched to the closest real
+                    Minecraft block across a ~200-block palette using CIE Lab perceptual distance. The
+                    result exports as a <code>.litematic</code> file you can paste directly into your world.
+                    Features a live 3D voxel preview in the browser via Three.js and a mobile-friendly
+                    UI for capturing objects from multiple angles with your phone camera.
+                  </p>
+                </div>
+                <div className="project-image-full-wrap">
+                  <img src={imageToMC} alt="ImageToMC screenshot" className="project-img-full" />
+                </div>
+              </div>
+
+              <div className="project-card">
+                <div className="project-info">
+                  <div className="project-meta">
+                    <span className="project-tag">iOS</span>
+                    <span className="project-tag">Swift</span>
+                    <span className="project-tag">Mobile</span>
+                  </div>
+                  <h2 className="card-title">Call of Duty Camo Tracker</h2>
+                  <p className="card-body">
+                    I designed and developed an iOS application that allows users to track their progress in
+                    Call of Duty: Black Ops 6. The app features a clean, user-friendly interface and efficient
+                    data models to display progress across various camo challenges. I plan to continue
+                    updating the app to support future titles and add features like challenge guides and
+                    progress sharing with friends.
+                  </p>
+                </div>
+              </div>
+
               <div className="project-card featured">
                 <div className="project-image-wrap">
                   <img src={emotionsGame} alt="Emotions.io game screenshot" className="project-img" />
@@ -118,6 +208,25 @@ function App() {
                 <div className="project-info">
                   <div className="project-meta">
                     <span className="project-tag">React</span>
+                    <span className="project-tag">Full Stack</span>
+                    <span className="project-tag">Education</span>
+                  </div>
+                  <h2 className="card-title">Teacher Dashboard</h2>
+                  <p className="card-body">
+                    A classroom management application built around the real workflow of a working teacher.
+                    Student progress tracking, assignment management, and key classroom data all live in
+                    one interface, removing the need to switch between multiple platforms throughout the day.
+                    The design prioritizes speed and clarity — giving educators immediate access to the
+                    information that matters — with accessibility and practical usability as core requirements
+                    throughout development.
+                  </p>
+                </div>
+              </div>
+
+              <div className="project-card">
+                <div className="project-info">
+                  <div className="project-meta">
+                    <span className="project-tag">React</span>
                     <span className="project-tag">JavaScript</span>
                     <span className="project-tag">Contract</span>
                   </div>
@@ -127,42 +236,6 @@ function App() {
                     official website. The site showcases their upcoming events, menu, and contact information.
                     Built using JavaScript and React, the site features a modern and visually appealing design
                     and is fully responsive across all devices. The website is live at mapleandmarsh.com.
-                  </p>
-                </div>
-              </div>
-
-              <div className="project-card">
-                <div className="project-info">
-                  <div className="project-meta">
-                    <span className="project-tag">Python</span>
-                    <span className="project-tag">Data Science</span>
-                    <span className="project-tag">Sports Analytics</span>
-                  </div>
-                  <h2 className="card-title">College Basketball Stat Predictor</h2>
-                  <p className="card-body">
-                    I am currently collaborating with a statistics student at the University of Missouri to
-                    develop a web-based predictive tool for NCAA basketball performance. The application
-                    forecasts player statistics—including points, assists, and rebounds—based on factors such
-                    as average stats, the defensive efficiency of the opposing team, and game location. I
-                    designed and developed the user interface for the website.
-                  </p>
-                </div>
-              </div>
-
-              <div className="project-card">
-                <div className="project-info">
-                  <div className="project-meta">
-                    <span className="project-tag">iOS</span>
-                    <span className="project-tag">Swift</span>
-                    <span className="project-tag">Mobile</span>
-                  </div>
-                  <h2 className="card-title">Call of Duty Camo Tracker</h2>
-                  <p className="card-body">
-                    I designed and developed an iOS application that allows users to track their progress in
-                    Call of Duty: Black Ops 6. The app features a clean, user-friendly interface and efficient
-                    data models to display progress across various camo challenges. I plan to continue
-                    updating the app to support future titles and add features like challenge guides and
-                    progress sharing with friends.
                   </p>
                 </div>
               </div>
